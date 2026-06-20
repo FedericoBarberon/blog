@@ -1,0 +1,42 @@
+# Cambiá esto cuando sepas dónde lo vas a hostear.
+# GitHub Pages: "https://tuusuario.github.io/nombre-del-repo"
+base_url = "https://tuusuario.github.io/mi-blog"
+
+title = "Federico Barberón"
+description = "Notes on Rust, systems programming, and projects in progress"
+theme = "terminus"
+author = "Fede"
+
+compile_sass = true
+generate_feeds = true
+build_search_index = true
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+render_emoji = true
+github_alerts = true
+
+[markdown.highlighting]
+style = "inline"
+theme = "github-dark"
+
+[extra]
+color_scheme = "terminus"        # opciones: terminus, tokyo-night, solarized-dark, nord, one-dark, gruvbox-dark, oled-abyss, synthwave-84, etc.
+favicon_emoji = "🦀"
+copy_button = true
+layout = "center"
+show_default_author = false
+
+main_menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "tags", url = "tags", trailing_slash = true },
+    { name = "github", url = "https://github.com/FedericoBarberon", new_tab = true },
+]
+
+socials = [
+    { name = "github", url = "https://github.com/FedericoBarberon" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/barberon-federico" },
+]
