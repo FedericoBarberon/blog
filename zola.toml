@@ -1,11 +1,11 @@
 # Cambiá esto cuando sepas dónde lo vas a hostear.
 # GitHub Pages: "https://tuusuario.github.io/nombre-del-repo"
-base_url = "https://tuusuario.github.io/mi-blog"
+base_url = "https://federicobarberon.netlify.app"
 
 title = "Federico Barberón"
 description = "Notes on Rust, systems programming, and projects in progress"
 theme = "terminus"
-author = "Fede"
+author = "Federico Barberón"
 
 compile_sass = true
 generate_feeds = true
