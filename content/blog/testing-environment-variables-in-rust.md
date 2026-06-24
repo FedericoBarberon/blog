@@ -1,7 +1,7 @@
 +++
 title = "Testing Environment-Dependent Code in Rust"
 description = "Isolating tests that depend on environment variables using RAII guards and serial_test"
-date = 2026-06-23
+date = 2026-06-24
 [taxonomies]
 tags = ["rust", "testing"]
 +++
