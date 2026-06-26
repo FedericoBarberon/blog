@@ -44,7 +44,7 @@ socials = [
 [extra.content_security_policy]
 enable = true
 allowed_domains = [
-    { directive = "script-src-elem", domains = ["https://giscus.app"] },
-    { directive = "frame-src", domains = ["https://giscus.app"] },
+    { directive = "script-src-elem", domains = ["https://giscus.app", "'self'"] },
+    { directive = "frame-src", domains = ["https://giscus.app", "'self'"] },
     { directive = "style-src-elem", domains = ["https://giscus.app", "'self'"] },
 ]
