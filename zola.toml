@@ -40,3 +40,11 @@ socials = [
     { name = "github", url = "https://github.com/FedericoBarberon" },
     { name = "linkedin", url = "https://www.linkedin.com/in/barberon-federico" },
 ]
+
+[extra.content_security_policy]
+enable = true
+allowed_domains = [
+    { directive = "script-src-elem", domains = ["https://giscus.app"] },
+    { directive = "frame-src", domains = ["https://giscus.app"] },
+    { directive = "style-src-elem", domains = ["https://giscus.app", "'self'"] },
+]

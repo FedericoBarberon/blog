@@ -1,0 +1,21 @@
+{% if page.path is starting_with("/blog/") %}
+<section class="post-comments">
+    <script
+        src="https://giscus.app/client.js"
+        data-repo="FedericoBarberon/blog"
+        data-repo-id="R_kgDOS_3uHg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOS_3uHs4C_9yW"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="gruvbox_dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async
+    ></script>
+</section>
+{% endif %}
